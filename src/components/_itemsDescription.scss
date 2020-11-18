@@ -1,0 +1,125 @@
+
+/*DESRIPCION DEL PRODUCTO*/
+
+.description-container-item{
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.25);
+  background-color: #fff;
+  min-width: 800px;
+  width: 75%;
+  margin-left: 128px;
+  margin-top: 55px;
+
+  .description-image-item{
+    height: 100%;
+    position: relative;
+    width: 486px;
+    min-height: 500px;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    -webkit-flex-basis: 0%;
+    flex-basis: 0%;
+
+    figure{
+      background-color: #fff;
+      left: 50px;
+      margin: 24px 0 0;
+      min-height: 500px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 410px;
+      // padding: 16px;
+
+      img{
+        height: inherit;
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+  }
+
+  .description-data-item{
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    -webkit-flex-basis: 0%;
+    flex-basis: 0%;
+    position: relative;
+    /* top: -10px; */
+    float: right;
+    bottom: 419px;
+
+    h1{
+      color: rgba(0,0,0,.8);
+      font-size: 22px;
+      font-weight: 600;
+      padding-bottom: 8px;
+      line-height: 1.18;
+      padding-right: 10px;
+      word-break: break-word;
+      width: 400px;
+    }
+
+    .description-price-item{
+      h1{
+        font-weight: 300;
+        font-size: 36px;
+        width: fit-content;
+        vertical-align: bottom;
+      }
+    }
+
+    .description-button-item{
+      button{
+        width: 50%;
+        border-color: transparent;
+        background-color: #3483fa;
+        cursor: pointer;
+        transition: box-shadow .25s ease-out,background-color .2s ease-out;
+        box-shadow: 0 0 0 0 #fff;
+        border-radius: 2px;
+        height: 45px;
+
+        span{
+          position: relative;
+          top: -1px;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-align-items: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          height: 100%;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .description-description-item{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 0 1 0%;
+    flex: 0 1 0%;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    -webkit-flex-wrap: wrap;
+    padding: 23px;
+
+    h2{
+      font-size: 24px;
+      font-weight: 400;
+      padding-bottom: 5px;
+    }
+
+    p{
+      color: #666;
+      font-size: 20px;
+      font-weight: 400;
+      font-size: 16px;
+      word-break: break-word;
+    }
+  }
+}

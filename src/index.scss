@@ -1,0 +1,31 @@
+@import './mixins';
+@import './columns';
+
+
+
+ #root {
+    display: block;
+    width: 100%;
+    @include responsive( $lg ) {
+        display: inline;
+        width: 50%;
+    }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background: rgba(0,0,0,.1);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+
+@import 'components/itemsDescription','components/itemsList','components/itemsSearch';
