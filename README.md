@@ -1,6 +1,6 @@
 # Test Práctico - Frontend
 
-**Nota: se debe inicializar el servidor de Express que se encuentra en la carpeta  `client/server` para atender las peticiones del lado del cliente.**
+**Nota: se debe inicializar el servidor de Express que se encuentra en la carpeta  `/server` para atender las peticiones del lado del cliente.**
 
 ## Componentes
 
@@ -30,4 +30,4 @@ Renderiza los datos devueltos por la api mostrando los detalles del producto.
 
 
 
-**Note: Cada componente (expecto Item) puede ser navegado independientemente ingresado su url y el parametro correspondiente**
+**Note: Cada componente (expecto Item) puede ser navegado independientemente ingresado su url y el parametro correspondiente.**
